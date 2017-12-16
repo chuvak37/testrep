@@ -1,0 +1,20 @@
+package com.defaultapps.week1;
+
+public class Calculator {
+    static int b;
+    long sum (int x, int y){
+        return b = x+y;
+    }
+    long multiply(int x, int y){
+        return b = x*y;
+    }
+    long divide (int x, int y){
+        if (x == 0){
+            return b = Integer.MAX_VALUE;
+        }
+         return b = x/y;
+    }
+   long getLastResult (){
+         return b;
+  }
+}
